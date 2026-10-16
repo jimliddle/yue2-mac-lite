@@ -1,7 +1,17 @@
 # YuE2 Mac Lite
 
 YuE2 Mac Lite runs YuE2 on Apple Silicon through the Metal backend in
-[audio.cpp](https://github.com/0xShug0/audio.cpp). It does not require Python.
+[audio.cpp](https://github.com/0xShug0/audio.cpp).
+
+# Benefits
+
+  - Native Apple Silicon C++/Metal implementation.
+  - No Python environment.
+  - One click startup.
+  - Full BF16 model and F32 decoder.
+  - Current upstream runtime.
+  - Verified on an M5 Max.
+  - Lighter / simpler than other ports.
 
 The repository contains the installer, launchers and configuration. The
 audio.cpp binaries and YuE2 model files are downloaded during installation and
