@@ -1,0 +1,20 @@
+# Downloaded runtime and model weights
+/downloads/
+/runtime/
+/models/
+
+# Generated audio and local inputs
+/outputs/
+/inputs/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.aiff
+
+# Local and macOS metadata
+.DS_Store
+*.log
+*.part
+.env
+.venv/
